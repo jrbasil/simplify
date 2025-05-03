@@ -1,13 +1,13 @@
 const Btn = (props) => /*#__PURE__*/
 React.createElement("button", { class: props.class, onClick: props.handleClick, value: props.text, id: props.value ? props.value : props.text }, props.text);
 const Title = () => /*#__PURE__*/
-React.createElement("h1", { id: "title" }, /*#__PURE__*/React.createElement("a", { href: "https://bxcd.github.io/simplify" }, "SIMPLIFY"));
+React.createElement("h1", { id: "title" }, /*#__PURE__*/React.createElement("a", { href: "https://jrbasil.github.io/simplify" }, "SIMPLIFY"));
 const Logo = () => /*#__PURE__*/
 React.createElement("h3", { id: "logo" }, "TR-101");
 const Mode = () => /*#__PURE__*/
 React.createElement("h5", { id: "mode" }, "Tap solar panel to switch light mode");
 const Attribution = () => /*#__PURE__*/
-React.createElement("h5", { id: "attribution" }, "Made by ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://github.com/bxcd/simplify" }, "bxcd"), " with ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://reactjs.org" }, "ReactJS"), " + ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://mathjs.org" }, "MathJS"));
+React.createElement("h5", { id: "attribution" }, "Made by ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://github.com/jrbasil/simplify" }, "jrbasil"), " with ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://reactjs.org" }, "ReactJS"), " + ", /*#__PURE__*/React.createElement("a", { target: "_blank", href: "https://mathjs.org" }, "MathJS"));
 const Readout = (props) => /*#__PURE__*/
 React.createElement("section", { id: "readout" }, /*#__PURE__*/
 React.createElement("table", { onClick: props.handleClick }, /*#__PURE__*/
